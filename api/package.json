@@ -1,0 +1,21 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --recursive --exit"
+  },
+  "author": "Sagar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mocha": "^8.1.3",
+    "mongodb": "^3.6.1",
+    "mongoose": "^5.10.3",
+    "supertest": "^4.0.2"
+  }
+}
